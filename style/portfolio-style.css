@@ -1,0 +1,137 @@
+body {
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    background-color: rgb(219, 208, 208);
+}
+
+header {
+    padding: 20px;
+}
+
+span {    
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#joshua-img {
+    width: 500px;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: -10px -10px 30px 4px rgba(0,0,0,0.1),
+    10px 10px 30px 4px rgba(160, 162, 175, 0.15);
+}
+
+#deal {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+/* MEDIA QUERIES */
+
+/* HEADING */
+
+@media (max-width: 400px) {
+    span {
+        font-size: 1rem;
+    }
+}
+
+/* JOSHUA IMAGE */
+
+@media (max-width: 650px) {
+    #joshua-img {
+        width: 450px;
+        height:auto;
+    }
+}
+
+@media (max-width: 500px) {
+    #joshua-img {
+        width: 400px;
+        height:auto;
+    }
+}
+
+@media (max-width: 450px) {
+    #joshua-img {
+        width: 350px;
+        height:auto;
+    }
+}
+
+@media (max-width: 400px) {
+    #joshua-img {
+        width: 280px;
+        height:auto;
+    }
+}
+
+@media (max-width: 300px) {
+    #joshua-img {
+        width: 200px;
+        height:auto;
+    }
+}
+
+/* DEAL */
+
+@media (max-width: 500px) {
+    #deal {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #deal {
+        font-size: 0.5rem;
+    }
+}
+
+/* PROJECTS / RATES / CONTACT */
+
+@media (max-width: 500px) {
+    h3 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    #rates-list {
+        font-size: 0.8rem;
+    }
+
+    #contact-list {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 0.5rem;
+    }
+
+    #rates-list {
+        font-size: 0.5rem;
+    }
+
+    #contact-list {
+        font-size: 0.5rem;
+    }
+}
+
+
