@@ -86,19 +86,37 @@ a:hover {
 
 @media (max-width: 500px) {
     #deal {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 360px) {
     #deal {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 }
 
 /* PROJECTS / RATES / CONTACT */
 
 @media (max-width: 500px) {
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    #rates-list {
+        font-size: 1rem;
+    }
+
+    #contact-list {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
     h3 {
         font-size: 1rem;
     }
@@ -113,24 +131,6 @@ a:hover {
 
     #contact-list {
         font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 400px) {
-    h3 {
-        font-size: 0.8rem;
-    }
-
-    a {
-        font-size: 0.5rem;
-    }
-
-    #rates-list {
-        font-size: 0.5rem;
-    }
-
-    #contact-list {
-        font-size: 0.5rem;
     }
 }
 
